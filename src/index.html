@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/animate.min.css">
     <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css"> -->
     <link rel="stylesheet" href="css/style.min.css">
 </head>
@@ -117,7 +118,7 @@
                 <li class="catalog__tab"><div>для бега</div></li>
                 <li class="catalog__tab"><div>для триатлона</div></li>
             </ul>
-            <div class="catalog__content">
+            <div class="catalog__content catalog__content_active">
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
@@ -358,12 +359,74 @@
             </div>
         </div>
     </section>
+    <section class="review">
+        <div class="container">
+            <h2 class="title">отзывы клиентов</h2>
+            <div class="review__item fadeInUp wow" data-wow-duration="5s" data-wow-delay="1s">
+                <img src="img/review1.png" alt="Ирина Иванченко" class="feed__img">
+                <div class="review__text">
+                    <div class="review__subtitle">Ирина Иванченко</div>
+                    <div class="review__count">2 полумарафона</div>
+                    <div class="review__descr">Не знала, что себе купить - обратилась к ребятам из RunSmart - подобрали пульсометр, который подошёл именно под мои цели и финансовые возможности.
+                    Через некоторое время решила обновить гаджет - не раздумывая обратилась туда же.
+                    <br><br>
+                    Новые цели - новый гаджет!
+                    <br><br>  
+                    Спасибо, RunSmart! 
+                    </div>
+                </div>
+            </div>
+
+            <div class="review__item fadeInUp wow" data-wow-duration="5s" data-wow-delay="1s">
+                <img src="img/review2.png" alt="Иван Сёмочкин" class="feed__img">
+                <div class="review__text">
+                    <div class="review__subtitle">Иван Сёмочкин</div>
+                    <div class="review__count">1 полумарафон</div>
+                    <div class="review__descr">Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал. Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку, научили пользоваться новым гаджетом. Также объяснили основы анатомии, составили план тренировок на месяц вперёд.
+                    <br><br> 
+                    С ними подготовился к своему первому полумарафону! Спасибо!!!
+                    </div>
+                </div>
+            </div>
+
+            <div class="review__item fadeInUp wow" data-wow-duration="5s" data-wow-delay="1s">
+                <img src="img/review3.png" alt="Юлия Дашкина" class="feed__img">
+                <div class="review__text">
+                    <div class="review__subtitle">Юлия Дашкина</div>
+                    <div class="review__count">2 полумарафона</div>
+                    <div class="review__descr">Долго не могла начать бегать, т.к. до этого несколько раз начинала, но становилось тяжело и я бросала. От друзей услышала о RunSmart и о беге с контролем пульса и решила попробовать.
+                    <br><br> 
+                    Позвонила, ребята поинтересовались моими целями и подобрали очень интересный вариант со скидкой! Теперь бегаю и наслаждаюсь бегом! Пробежала уже 2 полумарафона и несколько более коротких забегов и не намерена останавливаться!
+                    <br><br>
+                    Спасибо!!!
+                    
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer class="footer">
+        <!-- <div class="footer__map"></div> -->
+        <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1992.1359656929176!2d30.358107177516622!3d60.04597467496921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x469634bcc66d4fe7%3A0x72e8c325e7d368b1!2z0L_RgC4g0J_RgNC-0YHQstC10YnQtdC90LjRjywgNDMsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTQzNTI!5e0!3m2!1sru!2sru!4v1718020404330!5m2!1sru!2sru" width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        <!-- <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Ace14de1aa9337d914ec404f9af384d709362cded575df1a6cf238068aac62ddb&amp;source=constructor" width="391" height="400" frameborder="0"></iframe> -->
+        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ace14de1aa9337d914ec404f9af384d709362cded575df1a6cf238068aac62ddb&amp;width=100%&amp;height=400&amp;lang=ru_RU&amp;scroll=folse"></script>
+        <div class="footer__info">
+            <address class="footer__addr">Санкт-Петербург, проспект Просвещения, 43</address>
+            <a class="footer__phone" href="tel:89999228974">8 (999) 922-89-74</a>
+            <div class="footer__social">
+                <a href="#" class="footer__social-item"><img src="" alt=""></a><a href="#" class="footer__social-item"><img src="" alt=""></a><a href="#" class="footer__social-item"><img src="" alt=""></a>
+            </div>
+        </div>
+    </footer>
+
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js">
     </script>
     <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js">
     </script>
     <script src="js/slick.min.js">
     </script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

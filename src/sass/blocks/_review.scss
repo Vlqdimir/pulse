@@ -1,0 +1,40 @@
+.review {
+    padding-bottom: 48px;
+    .title {
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding-bottom: 60px;
+    }
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 60px;
+        img {
+            height: 169px;
+            width: 169px;
+        }
+    }
+    &__text {
+        padding-left: 61px;
+
+    }
+    &__subtitle {
+        font-size: 18px;
+        font-weight: 700;
+    }
+    &__count {
+        color: rgb(100, 100, 100);
+        font-size: 14px;
+        font-weight: 500;
+        padding-bottom: 10px;
+    }
+    &__descr {
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+    }
+       
+    
+}
