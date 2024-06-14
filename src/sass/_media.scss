@@ -18,6 +18,29 @@
     .promo {
         padding: 0 20px;
     }
+    .consultation {
+            padding: 50px 30px 92px;
+    }
+    .carousel{
+        &__inner {
+            width: 500px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .catalog {
+        &__tabs {
+            margin: 50px 70px;
+        }
+        &-item {
+            margin: 50px 40px;
+        }
+    }
+    .review {
+        margin: 30px 20px;
+    }
+    
 }
 @media (max-width: 767px) {
     .header {
@@ -84,6 +107,41 @@
         }
         &__descr {
             font-size: 11px;
+        }
+    }
+    .carousel {
+        &__inner {
+            width: 300px;
+            img {
+                width: 100%;
+            }
+        }
+    }
+    .catalog {
+        &__tab {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 180px;
+            height: 40px;
+            font-size: 12px;
+            div {
+              margin: 0;         
+            }
+        }
+        &-item {
+            margin: 50px 40px;
+        }
+        &__content_active {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .footer {
+        &__info {
+            width: 70%;
+            max-height: fit-content;
         }
     }
 }

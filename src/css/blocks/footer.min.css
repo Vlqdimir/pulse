@@ -1,1 +1,1 @@
-.footer{height:630px}
+.footer{height:630px;position:relative}.footer__info{position:absolute;top:0;left:50%;-webkit-transform:translateX(-50%);transform:translateX(-50%);width:460px;height:270px;background-color:red;padding:50px 53px 56px 53px}.footer__addr{color:#fff;margin-bottom:36px;font-size:16px;font-weight:500}
